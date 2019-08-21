@@ -1,41 +1,18 @@
-#topName{
-    /*text-align: left;*/
-    position: relative;
-    left: 20px;
+.Login{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
+    background-color: #333;
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    border: 1px;
+    padding: 2px;
 }
-
-#log{
-    position: absolute;
-    right: 150px;
-}
-
-#sign{
-    position: absolute;
-    right: 50px;
-}
-
-#headOne{
-    text-align: center; 
-    font-family: sans-serif;
-    padding: 8%
-}
-
-.indexButtons{
-    height: 50px;
-    width: 300px;
-}
-
-#jobButton{
-    position: fixed;
-    right: 600px;
-}
-
-#hiringButton{
-    position: fixed;
-    left: 600px;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -58,4 +35,10 @@ ul {
   
   li a:hover {
     background-color: #111;
+    cursor: pointer;
   }
+
+td{
+    border: 1px;
+    padding: 2px;
+} 
