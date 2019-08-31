@@ -28,3 +28,22 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+function mobNav() {
+    var nav = document.getElementById("myTopNav");
+    if (nav.className === "topnav") {
+        nav.className += " responsive";
+    } else {
+        nav.className = "topnav";
+    }
+}
+
+function hideNav() {
+    var hNav = document.getElementById("hide-fil");
+    if (hNav.style.display === "none") {
+        hNav.style.display = "block";
+    }
+    else {
+        hNav.style.display = "none";
+    }
+}
