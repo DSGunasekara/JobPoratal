@@ -1,0 +1,126 @@
+
+  /*form*/
+
+  div.a {
+    text-align: center;
+  }
+
+  hr.n {
+    border: 2px solid black;
+   }
+
+   body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+  }
+
+  .header {
+    text-align: left;
+  }
+  
+* {
+    box-sizing: border-box;
+  }  
+  
+  .container {
+    padding: 16px;
+    border-radius: 10px;
+    background-color: white;
+  }
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+ 
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+
+  .registerbtn {
+    background-color: rgb(30,130,148);
+    color: white;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  
+  a {
+    color: dodgerblue;
+  }
+  
+  
+  .signin {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  table {
+    table-layout: fixed;
+    border-radius: 10px;
+    width: 100%;
+    box-align: top ;   
+  }
+
+  /*CV button*/
+
+  #custom-button {
+    background-color: rgb(30,130,148);
+    color: white;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+  
+    opacity: 0.9;
+    
+  }
+
+  #custom-button:hover {
+    opacity: 1;
+    background-color: rgb(30,130,148);
+  }
+  
+  footer {
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(30, 130, 148);
+    height: 100px;
+    color: #f1f1f2;
+    letter-spacing: 2px;
+}
+  
+  @media screen and (max-width: 600px) {
+    
+    .column.side,
+    .column.middle {
+      width: 100%;
+    }
+  }
