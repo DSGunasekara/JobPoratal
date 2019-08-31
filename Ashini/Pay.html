@@ -5,7 +5,8 @@
     <title>Job Portal</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="src\styles.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Gayathri&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
@@ -20,8 +21,7 @@
     <div class="topnav" id="myTopNav">
         <a href="C:\Users\Dilain Gunasekara\Desktop\IWT\New folder\home.html">Home</a>
         <a href="C:\Users\Dilain Gunasekara\Desktop\IWT\New folder\categories.html">Categories</a>
-        <a href="C:\Users\Dilain Gunasekara\Desktop\IWT\New folder\Ashini\Post a job.html">Post a job</a>
-        <a href="C:\Users\Dilain Gunasekara\Desktop\IWT\New folder\applicants.html">Applicants</a>
+        <a href="C:\Users\Dilain Gunasekara\Desktop\IWT\New folder\applicant.html">Applicants</a>
         <a href="C:\Users\Dilain Gunasekara\Desktop\IWT\New folder\jobs.html">Jobs</a>
         <a href="C:\Users\Dilain Gunasekara\Desktop\IWT\New folder\contact.html">Contact us</a>
         <a href="C:\Users\Dilain Gunasekara\Desktop\IWT\New folder\about.html">About us</a>
@@ -40,21 +40,47 @@
 
         <div class="column middle">
 
-            <h3>A.D.S.Gunasekara</h3>
-            <h3>Full Stack Web Developer</h3>
+            <form width="100%" onsubmit="return validateForm()" action="" name="regForm">
 
-            <br>
-            <h2>Previous Projects</h2>
-            <ul>
-                <li>djnjskdn</li>
-                <li>nskcdskl</li>
-                <li>ndsjkncsd</li>
-            </ul>
+                <div class="container">
 
-            <h2>Contact details</h2>
-            <h2>Tel: 54511</h2>
-            <h2>dbcsbdhbcsj@bsdhc.com</h2>
+                    <h1>Post a Job</h1>
 
+                    <hr>
+
+
+                    <label><b>Name On Card</b></label>
+                    <input type="text" placeholder="Input Name On Card" name="name" required>
+
+                    <label><b>Card Number</b></label>
+                    <input type="text" id="cdnum" placeholder="Input Card Number  " name="srange" required>
+
+                    <label><b>CVV</b></label>
+                    <input type="password" id="cvv" placeholder="CVV  " name="cvv" required>
+
+                    <label><b>Expired date</b></label>
+                    <input type="date" placeholder="Expired date" name="expd" required>
+
+                    <label for="acc_cards">
+                        <b>Accepted Cards</b><br>
+                        <input type="radio" name="cards" value="visa">
+                        <img src="visa.png" width="100px" height="60px">
+                        <input type="radio" name="cards" value="master">
+                        <img src="master.png" width="100px" height="60px"><br>
+                        <input type="radio" name="cards" value="aexpress">
+                        <img src="aexpress.png" width="100px" height="60px">
+                        <input type="radio" name="cards" value="paypal">
+                        <img src="paypal.png" width="100px" height="60px"><br>
+                    </label>
+
+
+
+                    <button type="submit" class="registerbtn">Submit</button>
+
+                    <hr>
+                </div>
+
+            </form>
 
         </div>
 
@@ -71,5 +97,6 @@
 
 </body>
 <script src="src\script.js"></script>
+<script src="js.js"></script>
 
 </html>
