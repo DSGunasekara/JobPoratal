@@ -1,71 +1,68 @@
-html , body {
-  height: 100%;
-}
-ul {
-    list-style-type: none;
+* {
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: #eee;
+}
+
+.Nav {
+    top: 0;
+    position: relative;
+    width: 100%;
+    background-color: rgb(30, 130, 148);
     overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
+}
+
+.Nav-item li {
+    list-style: none;
     float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+}
+
+#login {
+    float: right;
+}
+
+#signup {
+    float: right;
+}
+
+.Nav-item li a {
+    text-transform: uppercase;
+    color: black;
+    padding: 30px;
     text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111;
-    cursor: pointer;
-  }
-
-td{
-    border: 1px;
-    padding: 2px;
+    display: block;
+    letter-spacing: 3px;
+    font-size: 18px;
 }
 
-.log {
-  float: right;
-}
-
-h2 {
-  text-align: center;
-}
-
-#container {
-  min-height: 100%;
-}
-
-#main {
-  overflow: auto;
-  padding-bottom: 100px;
-}
-
-footer {
-  position: relative;
-  background-color: #111;
-  color: aliceblue;
-  height: 100px;
-  margin-top: -100px;
-  clear: both;
-}
-
-footer p {
-  text-align: center;
+.Nav-item li a:hover {
+    background-color: rgb(19, 95, 109);
 }
 
 .post {
-  width: 800px;
-  border: 2px solid #111;
-  padding: 0px;
-  margin: 0px;
-  margin-left: 300px;
+    /* z-index: 1; */
+    position: relative;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+    padding: 30px;
+    width: 800px;
+    background-color: rgba(219, 218, 217, 0.897);
+    border: 1px solid rgb(77, 75, 75);
+    border-radius: 10px;
 }
 
+.side-bar {
+    position: fixed;
+    float: left;
+    z-index: 100;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(30, 130, 148);
+    height: 100px;
+}
