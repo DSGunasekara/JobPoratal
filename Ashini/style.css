@@ -69,12 +69,7 @@ hr {
   opacity: 1;
 }
 
-a:hover {
-  background-color: #f1f1f1;
-  color: black;
-}
-
-a {
+#next {
   color: dodgerblue;
   text-decoration: none;
   display: inline-block;
@@ -87,13 +82,7 @@ a {
   border-radius: 10px;
   text-align: center;
 }
-/*
-table {
-  table-layout: fixed;
-  border-radius: 10px;
-  width: 100%;
-  box-align: top ;   
-}
+
 
 /*button*/
 
@@ -106,8 +95,6 @@ table {
   border: none;
   cursor: pointer;
   opacity: 0.9;
-
-  
   
 }
 
