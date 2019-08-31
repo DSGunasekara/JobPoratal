@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Gayathri', sans-serif;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+  }
+
+  /*header*/
+
+  .header {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(30, 130, 148);
+    /* position: sticky; */
+  }
+
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    letter-spacing: 3px;
+  }
+
+  #login, #signup, #profile {
+    float: right;
+  }
+
+  
+  .topnav a:hover {
+    background-color: rgb(19, 95, 109);
+    /* color: black; */
+  }
+
+  
+  .column {
+    float: left;
+    padding: 10px;
+  }
+
+  
+  .column.side {
+    width: 25%;
+  }
+
+  
+  .column.middle {
+    width: 50%;
+  }
+
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column h2 {
+    text-align: center;
+  }
+
+  
+
+  .slidecontainer {
+    width: 100%;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 80%;
+    height: 15px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 17px;
+    height: 17px;
+    background: rgb(30, 130, 148);
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+  
+  
+  input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical ;
+}
+
+
+input[type=submit] {
+  background-color: rgb(30, 130, 148);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: rgb(19, 95, 109);
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+  
+  
+  footer {
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(30, 130, 148);
+    height: 100px;
+    color: #f1f1f2;
+    letter-spacing: 2px;
+}
