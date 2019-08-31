@@ -15,6 +15,12 @@
     text-align: left;
   }
 
+  .header a {
+    font-family: 'Caveat', cursive;
+    text-decoration: none;
+    color: rgb(30, 130, 148);
+  }
+
   .header h1 {
     font-family: 'Caveat', cursive;
     padding: 0;
@@ -231,6 +237,7 @@
     transition: 0.3s;
     border: none;
     border-radius: 5px;
+    text-decoration: none;
   }
 
   .view-more:hover {
@@ -265,12 +272,16 @@
   }
 
   #apply {
-    width: 100px;
+    padding: 8px 16px;
+    display: block;
+    width: 120px;
     height: 40px;
     background-color: rgb(30, 130, 148);
     position: fixed;
-    right: 15%;
+    right: 50%;
     border-radius: 5px;
+    text-decoration: none;
+    color: #f1f1f2;
   }
 
   #apply:hover {
