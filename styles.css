@@ -257,6 +257,26 @@
   #topBtn:hover {
     opacity: 1;
   }
+
+  #description {
+    background-color: #fdfbfb;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  #apply {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(30, 130, 148);
+    position: fixed;
+    right: 15%;
+    border-radius: 5px;
+  }
+
+  #apply:hover {
+    background-color: rgb(19, 95, 109);
+    cursor: pointer;
+  }
   
   footer {
     padding: 5px;
@@ -272,6 +292,13 @@
     .column.side,
     .column.middle {
       width: 100%;
+    }
+
+    #apply {
+      position: relative;
+      top: 5px;
+      bottom: 20px;
+      left: 90px;
     }
   }
 
